@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        // 2️ Kullanıcıdan bir sayı alıp tek mi çift mi olduğunu bulan program
+        //Kullanıcıdan bir sayı alıp tek mi çift mi olduğunu bulan program
         Console.Write("Bir sayı girin: ");
         int sayi1 = Convert.ToInt32(Console.ReadLine());
 
@@ -17,7 +17,7 @@ class Program
             Console.WriteLine("Sayı tek.");
         }
 
-        // 3️ Girilen bir sayının pozitif, negatif veya sıfır olup olmadığını belirleyen program
+        //Girilen bir sayının pozitif, negatif veya sıfır olup olmadığını belirleyen program
         Console.Write("Bir sayı girin: ");
         int sayi2 = Convert.ToInt32(Console.ReadLine());
 
